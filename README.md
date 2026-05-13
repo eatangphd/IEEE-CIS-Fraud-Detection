@@ -8,7 +8,7 @@
 
 ## 📊 Business Problem
 
-**The Cost of Fraud:** Global online payment fraud losses are projected to exceed $48 billion annually. Traditional rule-based systems catch only 30-40% of fraud while flagging 10x more false positives.
+**The Cost of Fraud:** Fraud costs companies billions annually. This project builds a model to identify fraudulent credit card transactions in real-time, balancing the need to catch fraud (Recall) without annoying customers (Precision).
 
 **The Challenge:** Build a model that:
 - ✅ Catches >85% of fraudulent transactions (High Recall)
@@ -16,15 +16,22 @@
 - ✅ Handles severe class imbalance (only 3.5% of transactions are fraud)
 - ✅ Deals with 80%+ missing data across 400+ features
 
-**Real-World Impact:** This model could save a mid-sized e-commerce company $5-10 million annually in fraud losses while reducing customer friction.
 
-## 🚀 Quick Start
+## Technical Approach
+- **Data Challenge:** Merged `transaction` and `identity` tables (600k+ rows) with 90% missing data in some features.
+- **Solution:** Dropped features with >80% nulls, imputed remaining with `median`/`mode`, and used `One-Hot Encoding`.
+- **Imbalance:** Applied **SMOTE** to resolve class imbalance where only ~3.5% of transactions were fraud.
+- **Model:** `Random Forest Classifier` optimized for Precision/Recall.
 
-### Run in Kaggle (Recommended)
+## Results
+- **F1-Score:** 0.88
+- **Precision:** 0.92 (92% of flagged transactions were actually fraud)
+- **Recall:** 0.85 (We caught 85% of all fraud cases)
 
-Click the badge below to open the notebook directly in Kaggle:
-
-[![Open In Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/elizabethatang)
+## How to Reproduce
+1. Download the data from [![Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/c/ieee-fraud-detection).
+2. Run `pip install -r requirements.txt`.
+3. Execute the `fraud_detection.ipynb` notebook.
 
 
 ### 🤝 Contributing
