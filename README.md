@@ -24,7 +24,7 @@
 
 Click the badge below to open the notebook directly in Kaggle:
 
-[![Open In Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/c/ieee-fraud-detection)
+[![Open In Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/elizabethatang)
 
 
 ### 🤝 Contributing
