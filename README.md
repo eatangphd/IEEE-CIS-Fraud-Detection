@@ -49,7 +49,8 @@ This project is open source and available under the MIT License.
 ### 📧 Contact email: liz21atang@gmail.com
 **Elizabeth (Epse Kombe) Atang**: [![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg)](https://www.linkedin.com/in/elizabeth-atang)
 
-### Project Link: [![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/eatangphd/IEEE-CIS-Fraud-Detection)
+### Project Links: [![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/eatangphd/IEEE-CIS-Fraud-Detection)
+###               [![Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/code/elizabethatang/catching-financial-fraud-with-machine-learning)
 
 ### 📖 References
 - IEEE-CIS Competition (https://www.kaggle.com/c/ieee-fraud-detection)
