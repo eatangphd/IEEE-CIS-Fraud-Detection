@@ -18,13 +18,29 @@
 
 **Real-World Impact:** This model could save a mid-sized e-commerce company $5-10 million annually in fraud losses while reducing customer friction.
 
-## 🎯 Results Summary
+## 🚀 Quick Start
 
-| Metric | Score | Industry Benchmark | Interpretation |
-|--------|-------|-------------------|----------------|
-| **F1-Score** | **0.88** | 0.75 | Balanced performance - beats industry standard |
-| **Precision** | **0.92** | 0.80 | 92% of flagged transactions are truly fraudulent |
-| **Recall** | **0.85** | 0.70 | Catches 85% of all fraud cases |
-| **ROC-AUC** | **0.96** | 0.85 | Excellent discrimination ability |
+### Run in Kaggle (Recommended)
 
-**Confusion Matrix (on 20% test holdout):**
+Click the badge below to open the notebook directly in Kaggle:
+
+[![Open In Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)]((https://www.kaggle.com/elizabethatang))
+
+
+### 🤝 Contributing
+Feel free to fork this project and adapt it for your own use case. Pull requests are welcome!
+
+### 📝 License
+This project is open source and available under the MIT License.
+
+### ⭐ Acknowledgments
+- Built with **Python** in **Kaggle** and **DeepSeek**
+- Dataset from **Vesta** on the **IEEE Fraud Detection** Competition on **Kaggle**
+- Visualization powered by **Matplotlib** and **Seaborn**
+- Inspired by **credit card fraud detection systems**
+
+### 📧 Contact email: liz21atang@gmail.com
+**Elizabeth (Epse Kombe) Atang**: [![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg)](https://www.linkedin.com/in/elizabeth-atang)
+
+### Project Link: [![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/eatangphd/IEEE-CIS-Fraud-Detection)
+
