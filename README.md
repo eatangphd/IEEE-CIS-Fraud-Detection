@@ -44,3 +44,9 @@ This project is open source and available under the MIT License.
 
 ### Project Link: [![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/eatangphd/IEEE-CIS-Fraud-Detection)
 
+### 📖 References
+- IEEE-CIS Competition (https://www.kaggle.com/c/ieee-fraud-detection)
+- Synthetic Minority Over-sampling Technique (SMOTE), Chawla et al., 2002. (https://doi.org/10.1613/jair.953)
+- Random Forests,  Breiman, 2001. (https://doi.org/10.1023/A:1010933404324)
+
+
