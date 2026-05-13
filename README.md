@@ -29,7 +29,7 @@
 - **Recall:** 0.85 (We caught 85% of all fraud cases)
 
 ## How to Reproduce
-1. Download the data from [![Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/c/ieee-fraud-detection).
+1. Download the data from [![Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/c/ieee-fraud-detection) or mount the path drive directly from the competition site.
 2. Run `pip install -r requirements.txt`.
 3. Execute the `fraud_detection.ipynb` notebook.
 
