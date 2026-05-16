@@ -23,15 +23,19 @@
 - **Imbalance:** Applied **SMOTE** to resolve class imbalance where only ~3.5% of transactions were fraud.
 - **Model:** `Random Forest Classifier` optimized for Precision/Recall.
 
+## Challenges and Countermeasures
+- **RAM Limitations:** The 30 GB of RAM provided per Kaggle notebook was insufficient to run the full program, and it crashed.
+  This was observed primarily when the application of the SMOTE technique was attempted.
+
 ## Results
-- **F1-Score:** 0.88
-- **Precision:** 0.92 (92% of flagged transactions were actually fraud)
-- **Recall:** 0.85 (We caught 85% of all fraud cases)
+- **F1-Score:** 0.31
+- **Precision:** 0.21 (21% of flagged transactions were actually fraud)
+- **Recall:** 0.62 (We caught 62% of all fraud cases)
 
 ## How to Reproduce
 1. Download the data from [![Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/c/ieee-fraud-detection) or mount the path drive directly from the competition site.
-2. Run `pip install -r requirements.txt`.
-3. Execute the `fraud_detection.ipynb` notebook.
+2. Run the preprocessing file from [![Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/code/elizabethatang/complete-preprocessing-pipeline-function-fraud-dat).
+3. Execute the notebook from [![Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/code/elizabethatang/rf-ml-and-smote-on-limited-ram).
 
 
 ### 🤝 Contributing
@@ -51,6 +55,9 @@ This project is open source and available under the MIT License.
 
 ### Project Links: [![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/eatangphd/IEEE-CIS-Fraud-Detection)
 ### [![Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/code/elizabethatang/catching-financial-fraud-with-machine-learning)
+### [![Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/code/elizabethatang/rf-ml-and-smote-on-limited-ram))
+### [![Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/code/elizabethatang/complete-preprocessing-pipeline-function-fraud-dat)
+
 
 ### 📖 References
 - IEEE-CIS Competition (https://www.kaggle.com/c/ieee-fraud-detection)
