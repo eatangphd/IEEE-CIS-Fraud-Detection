@@ -26,7 +26,13 @@
 ## Challenges and Countermeasures
 - **RAM Limitations:** The 30 GB of RAM provided per Kaggle notebook was insufficient to run the full program, and it crashed.
   This was observed primarily when the application of the SMOTE technique was attempted.
-
+-**Down-Sampling:** - To optimize the available space and complete the project, data was downsampled, i.e., not all the data was used.
+                    - The parameters for applying the SMOTE technique and Model training were also significantly reduced.
+                      For example, k-closest neighbors were reduced to 3 for SMOTE. Model parameters like estimators were reduced to 50, and the depth was set at 10.
+## NB: Given the limited memory, the goal of this project was adjusted to complete the project within the available RAM.
+To improve results, adjustments to the SMOTE application and model training, together with using all available data, can be made, given there is more RAM to work with.
+Because SMOTE creates all these synthetic points to improve class imbalance, there has to be enough memory to accommodate that.
+Alternatively, the choice of the Random Forest Classifier can be replaced with an ML model that requires less memory usage like LightGBM or XGBoost
 ## Results
 - **F1-Score:** 0.31
 - **Precision:** 0.21 (21% of flagged transactions were actually fraud)
