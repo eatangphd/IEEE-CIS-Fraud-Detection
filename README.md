@@ -33,10 +33,15 @@
 To improve results, adjustments to the SMOTE application and model training, together with using all available data, can be made, given there is more RAM to work with.
 Because SMOTE creates all these synthetic points to improve class imbalance, there has to be enough memory to accommodate that.
 Alternatively, the choice of the Random Forest Classifier can be replaced with an ML model that requires less memory usage like LightGBM or XGBoost
+
 ## Results
 - **F1-Score:** 0.31
 - **Precision:** 0.21 (21% of flagged transactions were actually fraud)
 - **Recall:** 0.62 (We caught 62% of all fraud cases)
+## Technical Insights for the Metrics
+- **Precision (0.21):** Exactly 79% of the fraud alerts are false alarms, meaning investigators will waste nearly 80% of their time reviewing legitimate user accounts.
+-**Recall (0.62):** The model leaves a massive security gap by letting exactly 38% of actual fraudsters completely slip through your defenses undetected.
+-**F1-Score (0.31):** This heavily penalized score mathematically proves that the model fails to find a healthy, functional compromise between stopping fraud and protecting user experience.
 
 ## How to Reproduce
 1. Download the data from [![Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/c/ieee-fraud-detection) or mount the path drive directly from the competition site.
