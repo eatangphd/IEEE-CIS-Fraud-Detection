@@ -26,7 +26,7 @@
 ## Challenges and Countermeasures
 - **RAM Limitations:** The 30 GB of RAM provided per Kaggle notebook was insufficient to run the full program, and it crashed.
   This was observed primarily when the application of the SMOTE technique was attempted.
--**Down-Sampling:** - To optimize the available space and complete the project, data was downsampled, i.e., not all the data was used.
+- **Down-Sampling:** - To optimize the available space and complete the project, data was downsampled, i.e., not all the data was used.
                     - The parameters for applying the SMOTE technique and Model training were also significantly reduced.
                       For example, k-closest neighbors were reduced to 3 for SMOTE. Model parameters like estimators were reduced to 50, and the depth was set at 10.
 ## NB: Given the limited memory, the goal of this project was adjusted to complete the project within the available RAM.
