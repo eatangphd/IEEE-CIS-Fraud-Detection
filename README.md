@@ -40,8 +40,8 @@ Alternatively, the choice of the Random Forest Classifier can be replaced with a
 - **Recall:** 0.62 (We caught 62% of all fraud cases)
 ## Technical Insights for the Metrics
 - **Precision (0.21):** Exactly 79% of the fraud alerts are false alarms, meaning investigators will waste nearly 80% of their time reviewing legitimate user accounts.
--**Recall (0.62):** The model leaves a massive security gap by letting exactly 38% of actual fraudsters completely slip through your defenses undetected.
--**F1-Score (0.31):** This heavily penalized score mathematically proves that the model fails to find a healthy, functional compromise between stopping fraud and protecting user experience.
+- **Recall (0.62):** The model leaves a massive security gap by letting exactly 38% of actual fraudsters completely slip through your defenses undetected.
+- **F1-Score (0.31):** This heavily penalized score mathematically proves that the model fails to find a healthy, functional compromise between stopping fraud and protecting user experience.
 
 ## How to Reproduce
 1. Download the data from [![Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/c/ieee-fraud-detection) or mount the path drive directly from the competition site.
