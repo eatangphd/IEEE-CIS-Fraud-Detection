@@ -61,7 +61,7 @@ This project is open source and available under the MIT License.
 
 ### Project Links: [![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/eatangphd/IEEE-CIS-Fraud-Detection)
 ### [![Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/code/elizabethatang/catching-financial-fraud-with-machine-learning)
-### [![Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/code/elizabethatang/rf-ml-and-smote-on-limited-ram))
+### [![Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/code/elizabethatang/rf-ml-and-smote-on-limited-ram)
 ### [![Kaggle](https://img.shields.io/badge/Kaggle-IEEE--CIS-20beff.svg)](https://www.kaggle.com/code/elizabethatang/complete-preprocessing-pipeline-function-fraud-dat)
 
 
